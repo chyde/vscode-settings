@@ -1,0 +1,54 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    },
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.untitled.hint": "hidden",
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "macros": {
+        "consoleLog": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "console.log(\"\");"
+                }
+            },
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft"
+        ],
+        "arrowFunction": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "() => {  }"
+                }
+            },
+            "cursorLeft", 
+            "cursorLeft"
+        ]
+    },
+    "window.zoomLevel": 1
+    
+}
